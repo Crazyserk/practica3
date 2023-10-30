@@ -1,4 +1,4 @@
-CREATE SCHEMA db_tienda;
+CREATE SCHEMA db_base;
 USE  db_tienda;
 CREATE TABLE Productos (
     idProducto int(8) auto_increment PRIMARY KEY,
@@ -27,5 +27,5 @@ CREATE TABLE ProductosCestas(
     idCesta INT NOT NULL,
     foreign key(idCesta) references Cestas(idCesta),
     cantidad INT(2) NOT NULL,
-    PRIMARY KEY (idProducto, idCesta)
+    PRIMARY KEY (idProducto,idCesta)
 );
