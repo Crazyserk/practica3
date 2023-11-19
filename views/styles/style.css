@@ -1,0 +1,79 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+.form-label {
+    font-family: 'Verdana', sans-serif;
+    color: #333;
+}
+.btn-primary {
+    background-color: #ff6f00;
+    border-color: #ff6f00;
+    font-family: 'Arial', sans-serif;
+}
+.btn-primary:hover {
+    background-color: #ff8f00;
+    border-color: #ff8f00;
+}
+        .navegador {
+            background-color: #f8f9fa;
+            padding: 10px;
+        }
+        
+        .navegador ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navegador li {
+            margin: 0 10px;
+        }
+
+        .navegador a {
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        body {
+            background-color:grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+           background-color:silver;
+           border-radius: 30px;
+           padding: 20px;
+           font-family: 'Arial', sans-serif;
+           width: 100%;
+           max-width: 400px;
+           position: absolute;
+           top: 45%;
+           left: 50%;
+           transform: translate(-50%, -50%);
+        }
+        .form-label {
+            font-family: 'Verdana', sans-serif;
+            color: #333;
+        }
+        .btn-primary {
+            background-color: #ff6f00;
+            border-color: #ff6f00;
+            font-family: 'Arial', sans-serif;
+        }
+        .btn-primary:hover {
+            background-color: #ff8f00;
+            border-color: #ff8f00;
+        }
+        .container h1 {
+            font-family: 'Agbalumo', sans-serif;
+            text-align: center;
+            animation: move 2s infinite alternate;
+        }
+        @keyframes move {
+            0% { transform: translateX(-10px); }
+            100% { transform: translateX(10px); }
+        }
+        */
+

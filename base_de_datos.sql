@@ -1,5 +1,7 @@
 CREATE SCHEMA db_base;
-USE  db_tienda;
+
+USE db_base;
+
 CREATE TABLE Productos (
     idProducto int(8) auto_increment PRIMARY KEY,
     nombreProducto VARCHAR(40) NOT NULL,
